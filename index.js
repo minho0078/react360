@@ -4,18 +4,21 @@ import {
   StyleSheet,
   Text,
   View,
+  Image
 } from 'react-360';
 
 export default class react360 extends React.Component {
   render() {
     return (
+      <Image source={require('./static_assets/background.jpg')} >
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            HELLO I AM MINHO
           </Text>
         </View>
       </View>
+      </Image>
     );
   }
 };
@@ -37,6 +40,7 @@ const styles = StyleSheet.create({
   },
   greeting: {
     fontSize: 30,
+    color:'white'
   },
 });
 
