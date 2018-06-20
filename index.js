@@ -48,7 +48,7 @@ export default class react360 extends React.Component {
         playerState: new MediaPlayerState({autoPlay: true, muted: true}), // init with muted, autoPlay
       };
   }
-
+/* 참고 사이트 : https://github.com/facebook/react-360/blob/master/Examples/VideoSample/index.vr.js */
   render() {
     return (
       <View style={styles.panel}>
